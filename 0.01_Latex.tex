@@ -1,0 +1,75 @@
+% per commentare in Latex:
+% usare %, che prende in considerazione la riga su cui è scritto il testo
+% backslash \ o barra rovescia, introduce i comandi.
+% Non è necessario il ; alla fine delle istruzioni.
+
+% le prime istruzioni da scrivere in Latex sono:
+% Il preambolo, è la parte iniziale del documento,
+% che comprende la classe del documento con le sue specifiche
+% dimensione del carattere, scelto qui di 12pt di dimensione,
+% e tra le parentesi {} il tipo di documento che si sta scrivendo
+% può essere:
+
+% article
+% è una classe progettata per scrivere articoli – non articoli di giornale,
+% ma su riviste specializzate! – e quindi non prevede l’uso del comando
+%\ chapter, in quanto la suddivisione è solo in paragrafi e sottoparagrafi.
+
+% book 
+% serve a scrivere documenti più lunghi e complessi, che contengano una
+% suddivisione in sezioni più articolata e comprensiva di parti e capitoli.
+
+% letter 
+% è una classe pensata appositamente per la composizione di lettere.
+
+% beamer 
+% è la classe per le presentazioni – slides – di cui però parleremo più
+% diffusamente in seguito, perché ha delle caratteristiche molto particolari.
+
+% Ce ne sono molte altre, come thesis per le tesi di laurea 
+% e report, simile a book, la cui trattazione però va oltre gli scopi di questa guida, 
+% che vuole essere introduttiva.
+
+\documentclass[12pt,a4paper]{book}
+
+
+% Subito dopo la dichiarazione della classe del documento, bisogna indicare i
+% pacchetti che si vogliono usare nel progetto. Il comando da dare in questo caso 
+% è \usepackage:
+
+\usepackage[italian]{babel}
+
+
+
+% A questo punto, diamo il comando che
+% segnala la fine del preambolo e l’inizio del documento vero e proprio:
+\begin{document}
+
+% Con \title dite a LATEX qual è il titolo del vostro libro, e questo titolo verrà
+% scritto nel punto in cui avete inserito il comando \maketitle.
+% titolo del testo, che viene visualizzato
+
+\title{Paper di prova}
+% Autore del testo, che viene visualizzato
+\author{Luca Spanedda}
+% Data
+\date{}
+% ...
+\maketitle
+
+
+\chapter{Titolo del capitolo}
+% Titolo del capitolo
+\section{Titolo del paragrafo}
+% Titolo del paragrafo
+\subsection{Titolo del sottoparagrafo}
+% Titolo del sottoparagrafo
+
+
+%se volete iniziare un nuovo capoverso,
+%dovete lasciare una riga vuota. Se vi limitate semplicemente ad andare a capo,
+%LATEX interpreterà la cosa come un semplice spazio e quindi non inizierà un
+%nuovo capoverso!
+
+% la fine del documento vero e proprio:
+\end{document}

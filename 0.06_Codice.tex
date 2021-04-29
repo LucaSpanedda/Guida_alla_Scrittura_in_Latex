@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+% pacchetto Multicolonna
+\usepackage{multicol}
+% pacchetto Immagine
+\usepackage{graphicx} 
+
+% inizio del documento
+\begin{document}
+% Titolo, Autore, Data.
+\title{Prova Disegno}
+\author{Luca Spanedda}
+\date{\today}
+%...
+\maketitle
+% --------------------------------------------------------------------------------
+% --------------------------------------------------------------------------------
+% --------------------------------------------------------------------------------
+% --------------------------------------------------------------------------------
+
+% all'interno di un codice Latex può esser necessario di scrivere un codice.
+% il problema è che il codice può andare in conflitto ed esser interpretato dal linguaggio Latex.
+% La modalità per superare tale difficoltà è usare l'ambiente verbatim.
+% Tutto quello che viene scritto dentro verbatim viene stampato dal codice così come è
+% e non viene interpretato invece dal compilatore di Latex:
+
+\begin{verbatim}
+
+/* -------------------------------------
+   SEZIONE OSCILLATORE 1
+   ------------------------------------- */
+
+// Codice della Funzione dell'Oscillatore 1 
+// richiamato sul process.
+
+// CONTROLLI che vengono richiamati come argomento della funzione: 
+// frequency1 = frequenza da 1. a 10000.
+// shape1 = forma d'onda da 0. a 1. per la sine 
+// (nel VCS3 da 0. a 10.)
+// amposcillatore1 = ampiezza della sine da 0. a 1. 
+// (nel VCS3 da 0. a 10.)
+// ampsaw1 = ampiezza della saw da 0. a 1. (nel VCS3 da 0. a 10.)
+
+// FINE DEL CODICE
+
+\end{verbatim}
