@@ -8,39 +8,49 @@
 % di vario tipo.
 \begin{tikzpicture}
 
+\section{Schema di stato}
 % con node
 % qui vado a definire i disegni in questione. In ordine di apparizione:
 % [draw,circle] --> disegna un cerchio
 % (s1) at (0,0) --> nome dell'oggetto e dove viene posizionato
 % {A} --> contenuto del'oggetto in questione.
-\node[draw,circle] (s1) at (0,0) {A};
-\node[draw,circle] (s2) at (-1.6,-2) {B};
-\node[draw,circle] (s3) at (1.6,-2) {C};
-\node[draw,circle] (s4) at (-4,-3) {D};
-\node (s5) at (4,-3) {\includegraphics[width=2cm]{serenata.jpg}};
+\begin{figure}[h!]
+\begin{center}
+\begin{tikzpicture}
+\node[draw,circle] (s1) at (-20,-3.5) {in};
+\node[draw,circle] (s2) at (-18,-1) {A1};
+\node[draw,circle] (s3) at (-14,-1) {B1};
+\node[draw,circle] (s4) at (-10,0) {C1};
+\node[draw,circle] (s5) at (-20,2) {+};
+\node[draw,circle] (s6) at (-14,2) {out 1};
+\node[draw,circle] (s7) at (-18,-6) {A2};
+\node[draw,circle] (s8) at (-14,-6) {B2};
+\node[draw,circle] (s9) at (-10,-7) {C2};
+\node[draw,circle] (s10) at (-20,-9) {+};
+\node[draw,circle] (s11) at (-14,-9) {out 2};
 
+% ARROWS
 % in path vado a definire i collegamenti, ad esempio:
-% (s2) edge[->, double distance=1pt, >=latex', bend left=40] (s1)
+% (s2) edge[->] (s1)
 % definisce che l'oggetto (s2) punterà con edge all'oggetto (s1)
-% con i parametri [->, double distance=1pt, >=latex', bend left=40]
 \path
-    (s2) edge[->, double distance=1pt, >=latex', bend left=40] (s1)
-    (s3) edge[->, double distance=1pt, >=latex', bend right=40] (s1)
-    (s3) edge[->, double distance=1pt, >=latex', bend left=60] (s2)
-    (s2) edge[<->, double distance=1pt, >=latex'] (s4)
-    (s3) edge[<->, double distance=1pt, >=latex'] (s5);
-
-% dopo di chè, chiudo tikz.
+    (s1) edge[->] (s2)
+    (s2) edge[->] (s3)
+    (s3) edge[->] (s4)
+    (s4) edge[->] (s5)
+    (s2) edge[->] (s5)
+    (s5) edge[->] (s6)
+    (s1) edge[->] (s7)
+    (s7) edge[->] (s8)
+    (s8) edge[->] (s9)
+    (s9) edge[->] (s10)
+    (s7) edge[->] (s10)
+    (s10) edge[->] (s11)
+    ;
 \end{tikzpicture}
-
-\end{center}
 % commento del tutto:
-\caption{Prove di stato a 5 parti}
-% il commento punta a:
-\label{fig1}
-
-% chiudo figure
+\caption{Algoritmo}
+\end{center}
 \end{figure}
 
-% concludo
 \end{document}
