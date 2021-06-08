@@ -1,0 +1,36 @@
+\documentclass[12pt]{article}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+
+\title{Prova di disegno schemi}
+\author{Luca Spanedda}
+\date{\today}
+
+\begin{document}
+    \maketitle
+
+
+\section{Sezione 1}
+commento della sezione e inizio della figura/disegno a seguito
+
+
+\begin{figure}[h!]
+\begin{center}
+\begin{tikzpicture}
+%-------------------
+% schema stanza vuota
+\draw[black, thick] (0,0) -- (-3,2);
+\draw[black, thick] (0,0) -- (8,0);
+\draw[black, thick] (8,0) -- (8,-10);
+\draw[black, thick] (8,-10) -- (0,-10);
+\draw[black, thick] (0,-10) -- (0,0);
+% commento
+\filldraw[black] (-2.4,2.2) circle (0.05) node[anchor=west] {altezza: 2,70 metri};
+\filldraw[black] (0.2,-5) circle (0.05) node[anchor=west] {lunghezza: 4,00 metri};
+\filldraw[black] (2,-10.3) circle (0.05) node[anchor=west] {larghezza: 2,73 metri};
+%-------------------
+\end{tikzpicture}
+\end{center}
+\end{figure}
+
+\end{document}
