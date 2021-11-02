@@ -1,0 +1,38 @@
+\documentclass[12pt]{article}
+\usepackage{tikz}
+\usepackage{pdfpages}
+\usepackage{blindtext}
+\usepackage{multicol}
+\usepackage{lipsum}% http://ctan.org/pkg/lipsum
+\usepackage[margin=2cm,landscape,a3paper]{geometry}% http://ctan.org/pkg/geometry
+\pagestyle{empty}% Set page style to empty
+\makeatletter
+\let\ps@plain\ps@empty% Make plain page style equivalent to empty page style
+\makeatletter
+
+
+\begin{document}
+
+% COMANDO PER INCLUDERE UN PDF (RUOTATO)
+\includepdf[pages=-,angle=270]{coverdem.pdf}
+
+% SCRITTURA DEL FILE IN A3
+\section*{Note}
+Deus ex machina è un brano per performer e live electronics che ha come obiettivo quello di rappresentare il 
+\emph{logos} da un punto di vista postmoderno.
+La ragione di questo brano ha fondo in una volontà critica verso i valori culturali 
+e gli assunti fondamentali condivisi dalla società occidentale; 
+che è continuamente soggetta ad evidenti cortocircuiti e malfunzionamenti a danno degli individui che la compongono.
+\newline
+Il cortocircuito, e dunque la retroazione a guadagno infinito che porta all'autodistruzione 
+del sistema stesso che la genera,
+è il processo centrale su cui si basa il dialogo fra la voce e l'elettronica.
+Nel brano, la voce viene processata elettronicamente in modo da collassare su sé stessa, implodere.
+\newline
+La nascita del verbo, la libertà espressiva che corrisponde ad un'origine della vocalità ricercata dal performer, 
+viene dunque continuamente ostracizzata ed ostacolata da questa macchina artificiale che è in realtà il prodotto della memoria della voce stessa.
+L'elettronica e la voce sono in un rapporto intrecciato di dualismo dove l'una influenza il comportamento dell'altra.
+\newline \newline
+Deus Ex Machina è un rituale.
+
+\end{document}
