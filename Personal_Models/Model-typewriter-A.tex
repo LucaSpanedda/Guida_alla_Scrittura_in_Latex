@@ -1,0 +1,128 @@
+% LATEX TYPEWRITER DOCUMENT MODEL A --------------------------- 80 CHARACTERS :
+
+% ---------------------------------------------------------------- PARAMETERS :
+
+\documentclass[ms,a4paper]{memoir}
+% Document Margins 
+\usepackage[margin=0.5in]{geometry}
+% verbatim for code
+\usepackage{verbatimbox}
+% dash or reparticle define the kind of sections
+\chapterstyle{dash}
+% underline
+\usepackage{ulem}  
+\usepackage{xcolor}
+% random text for try
+\usepackage{lipsum} 
+% font hyphenation 
+\usepackage{everysel}
+\EverySelectfont{%
+% space bethween the words
+\fontdimen2\font=0.4em
+\fontdimen3\font=0.2em % interword stretch
+\fontdimen4\font=0.1em % interword shrink
+\fontdimen7\font=0.4em % extra space
+\hyphenchar\font=`\-% to allow hyphenation
+}
+\renewcommand{\baselinestretch}{1}
+\newbox\flinebox 
+\newbox\slinebox
+\newbox\mlinebox
+\def\duplines{\setlength\parindent{0pt}
+  \setbox\flinebox\lastbox
+  \ifvoid\flinebox\relax
+  \else
+  \setbox\slinebox\hbox{\copy\flinebox}
+  \setbox\mlinebox\hbox{\copy\flinebox}
+  \unskip\unpenalty
+  {\duplines}
+
+{\color{black!30} \box\flinebox\vspace*{-2.85ex}}
+{\color{black!50} \makebox[\textwidth]{\hspace*{-0.25pt}
+\box\mlinebox}\vspace*{-2.75ex}}
+{\color{black!90}  \makebox[\textwidth]{\hspace*{0.25pt}\box\slinebox}}\fi
+}
+\newcommand\BlurText[1]{%
+  \vbox{#1\par\duplines}}
+
+
+
+
+% ------------------------------------------------------------------ DOCUMENT :
+
+
+% Begin the document
+\begin{document}
+
+% TITLE OF THE TEXT
+\title{Paper di prova MACCHINA DA SCRIVERE A}
+\author{Luca Spanedda}
+% print date of today
+\date{\today}
+% make the title here
+\maketitle
+
+% ABSTRACT
+\begin{abstract}
+I segnali caotici nella sintesi digitale possono essere utili per implementare  
+oscillatori e/o segnali di controllo tempo-varianti.
+Un problema dei sintetizzatori digitali e degli effetti audio,
+è che sono spesso caratterizzati da suoni molto lontani da quelli prodotti nel mondo fisico,
+a causa della natura precisa e tempo-invariante della loro generazione del segnale nel mondo digitale.
+\newline
+Nel computer, i dettagli che in natura nel suono si verificano normalmente in modo imprevedibile, 
+devono essere accuratamente sequenziati fino al punto di esaurimento 
+delle risorse del computer e del programmatore.
+\newline
+Adottare segnali caotici nella sintesi e nel controllo, può essere dunque un modo
+per produrre suoni più naturali di quelli generati attraverso le tecniche più standard di sintesi digitale,
+con metodi computazionali più economici.
+\newline
+In questo studio andremo ad implementare dei circuiti nel linguaggio di programmazione Faust(GRAME)
+per rappresentare discretamente alcuni modelli caotici, ed alcuni stocastici,
+che possano essere utili nella generazione di texture sonore di sintesi.
+Estrapoleremo da questi codici alcune topologie per rappresentare i circuiti corrispondenti
+alle equazioni differenziali implementate, ed andremo ad utilizzare il linguaggio di programmazione 
+Python per ottenere alcuni plot che rappresentino il comportamento di questi modelli.
+\end{abstract}
+
+
+% HERE START THE TEXT ---------------------------------------------------------
+% text on 2 COLUMN
+\twocolumn
+% \onecolumn - for text on single column
+
+% New Chapter
+\chapter{New Chapter}
+% New Section
+% add * to \section* for avoid section number
+\section{New Section}
+% random text for try
+\lipsum[1] \lipsum[1] \lipsum[1] \lipsum[1]
+
+
+% New Page with clearpage
+\clearpage
+% \pagebreak for a soft break and \cleardoublepage for double clear
+
+% FOR CODE --------------------------------------------------------------------
+\onecolumn
+\begin{verbatim}
+-------------------------------------------------------------------------------
+                      -----------------------
+the text here is in vebatim 
+--  for --------------------------------------- CODES ------
+                           ----  ----      -------------------------
+-------------------------------------------------------------------------------
+\end{verbatim}
+\twocolumn
+% -----------------------------------------------------------------------------
+
+% New SUB Section
+\subsection{New SUB Section}
+% random text for try
+\lipsum[1] \lipsum[1] \lipsum[1] \lipsum[1]
+
+% HERE END THE TEXT -----------------------------------------------------------
+
+\end{document}

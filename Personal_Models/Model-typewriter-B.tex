@@ -1,0 +1,44 @@
+% LATEX TYPEWRITER DOCUMENT MODEL B --------------------------- 80 CHARACTERS :
+
+% ---------------------------------------------------------------- PARAMETERS :
+\documentclass{article}
+\usepackage{manuscript,lipsum}
+
+\begin{document}
+
+% TITLE OF THE TEXT
+\title{Paper di prova MACCHINA DA SCRIVERE B}
+\author{Luca Spanedda}
+% print date of today
+\date{\today}
+% make the title here
+\maketitle
+
+% ABSTRACT
+\begin{abstract}
+I segnali caotici nella sintesi digitale possono essere utili per implementare  
+oscillatori e/o segnali di controllo tempo-varianti.
+Un problema dei sintetizzatori digitali e degli effetti audio,
+è che sono spesso caratterizzati da suoni molto lontani da quelli prodotti nel mondo fisico,
+a causa della natura precisa e tempo-invariante della loro generazione del segnale nel mondo digitale.
+\newline
+Nel computer, i dettagli che in natura nel suono si verificano normalmente in modo imprevedibile, 
+devono essere accuratamente sequenziati fino al punto di esaurimento 
+delle risorse del computer e del programmatore.
+\newline
+Adottare segnali caotici nella sintesi e nel controllo, può essere dunque un modo
+per produrre suoni più naturali di quelli generati attraverso le tecniche più standard di sintesi digitale,
+con metodi computazionali più economici.
+\newline
+In questo studio andremo ad implementare dei circuiti nel linguaggio di programmazione Faust(GRAME)
+per rappresentare discretamente alcuni modelli caotici, ed alcuni stocastici,
+che possano essere utili nella generazione di texture sonore di sintesi.
+Estrapoleremo da questi codici alcune topologie per rappresentare i circuiti corrispondenti
+alle equazioni differenziali implementate, ed andremo ad utilizzare il linguaggio di programmazione 
+Python per ottenere alcuni plot che rappresentino il comportamento di questi modelli.
+\end{abstract}
+
+\pagebreak
+\lipsum[1-3]
+
+\end{document}
