@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.16)  17 MAR 2022 21:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.16)  18 MAR 2022 10:54
 entering extended mode
 **./0_portfolio.tex
 (0_portfolio.tex
@@ -521,260 +521,259 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 39.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 39.
-<background_2.jpg, id=4, 462.97969pt x 461.47406pt>
-File: background_2.jpg Graphic file (type jpg)
-<use background_2.jpg>
-Package pdftex.def Info: background_2.jpg  used on input line 40.
-(pdftex.def)             Requested size: 1195.27672pt x 845.10889pt.
- [1
-
-{C:/Users/stigm/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./background_2.
-jpg>]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 47.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 38.
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-[][]\OT1/cmtt/m/n/24.88 Introduction|
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]\OT1/cmtt/m/n/24.88 PORTFOLIO|
+ []
+
+<lorenz.jpg, id=4, 2055.68pt x 1541.76pt>
+File: lorenz.jpg Graphic file (type jpg)
+<use lorenz.jpg>
+Package pdftex.def Info: lorenz.jpg  used on input line 42.
+(pdftex.def)             Requested size: 1195.0242pt x 845.02997pt.
+[1
+
+{C:/Users/stigm/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./lorenz.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+|\OT1/cmtt/m/n/24.88 Introduction|
  []
 
 <portfolio1.jpg, id=11, 903.375pt x 903.375pt>
 File: portfolio1.jpg Graphic file (type jpg)
 <use portfolio1.jpg>
-Package pdftex.def Info: portfolio1.jpg  used on input line 57.
+Package pdftex.def Info: portfolio1.jpg  used on input line 58.
 (pdftex.def)             Requested size: 227.62204pt x 227.62138pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 59.
+(Font)              <12> on input line 60.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 59.
+(Font)              <8> on input line 60.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 59.
+(Font)              <6> on input line 60.
 <portfolio2.jpg, id=12, 813.0375pt x 813.0375pt>
 File: portfolio2.jpg Graphic file (type jpg)
 <use portfolio2.jpg>
-Package pdftex.def Info: portfolio2.jpg  used on input line 61.
+Package pdftex.def Info: portfolio2.jpg  used on input line 62.
 (pdftex.def)             Requested size: 227.62204pt x 227.61172pt.
 <portfolio3.jpg, id=13, 541.27219pt x 541.27219pt>
 File: portfolio3.jpg Graphic file (type jpg)
 <use portfolio3.jpg>
-Package pdftex.def Info: portfolio3.jpg  used on input line 65.
+Package pdftex.def Info: portfolio3.jpg  used on input line 66.
 (pdftex.def)             Requested size: 227.62204pt x 227.62183pt.
 <portfolio4.jpg, id=14, 573.14125pt x 574.145pt>
 File: portfolio4.jpg Graphic file (type jpg)
 <use portfolio4.jpg>
-Package pdftex.def Info: portfolio4.jpg  used on input line 69.
+Package pdftex.def Info: portfolio4.jpg  used on input line 70.
 (pdftex.def)             Requested size: 227.62204pt x 228.02443pt.
 <jacks.jpg, id=15, 642.4pt x 642.4pt>
 File: jacks.jpg Graphic file (type jpg)
 <use jacks.jpg>
-Package pdftex.def Info: jacks.jpg  used on input line 75.
+Package pdftex.def Info: jacks.jpg  used on input line 76.
 (pdftex.def)             Requested size: 227.62204pt x 227.6174pt.
 <sketch.jpg, id=16, 642.4pt x 642.4pt>
 File: sketch.jpg Graphic file (type jpg)
 <use sketch.jpg>
-Package pdftex.def Info: sketch.jpg  used on input line 79.
+Package pdftex.def Info: sketch.jpg  used on input line 80.
 (pdftex.def)             Requested size: 227.62204pt x 227.6174pt.
 <pd.jpg, id=17, 481.8pt x 481.8pt>
 File: pd.jpg Graphic file (type jpg)
 <use pd.jpg>
-Package pdftex.def Info: pd.jpg  used on input line 83.
+Package pdftex.def Info: pd.jpg  used on input line 84.
 (pdftex.def)             Requested size: 227.62204pt x 227.62228pt.
 <proph.jpg, id=18, 602.25pt x 602.25pt>
 File: proph.jpg Graphic file (type jpg)
 <use proph.jpg>
-Package pdftex.def Info: proph.jpg  used on input line 87.
+Package pdftex.def Info: proph.jpg  used on input line 88.
 (pdftex.def)             Requested size: 227.62204pt x 227.62596pt.
-File: background_2.jpg Graphic file (type jpg)
-<use background_2.jpg>
-Package pdftex.def Info: background_2.jpg  used on input line 92.
-(pdftex.def)             Requested size: 1195.27672pt x 845.10889pt.
+File: lorenz.jpg Graphic file (type jpg)
+<use lorenz.jpg>
+Package pdftex.def Info: lorenz.jpg  used on input line 93.
+(pdftex.def)             Requested size: 1195.0242pt x 845.02997pt.
 [2
 
  <./portfolio1.jpg> <./portfolio2.jpg> <./portfolio3.jpg> <./portfolio4.jpg> <.
 /jacks.jpg> <./sketch.jpg> <./pd.jpg> <./proph.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
 |\OT1/cmtt/m/n/24.88 Academic Programs|
  []
 
 <electroac1.jpg, id=22, 2273.49374pt x 2274.24657pt>
 File: electroac1.jpg Graphic file (type jpg)
 <use electroac1.jpg>
-Package pdftex.def Info: electroac1.jpg  used on input line 112.
+Package pdftex.def Info: electroac1.jpg  used on input line 113.
 (pdftex.def)             Requested size: 227.62204pt x 227.6809pt.
 <info1.jpg, id=23, 584.1825pt x 584.1825pt>
 File: info1.jpg Graphic file (type jpg)
 <use info1.jpg>
-Package pdftex.def Info: info1.jpg  used on input line 116.
+Package pdftex.def Info: info1.jpg  used on input line 117.
 (pdftex.def)             Requested size: 227.62204pt x 227.62523pt.
 <threestudies1.jpg, id=24, 532.99126pt x 532.99126pt>
 File: threestudies1.jpg Graphic file (type jpg)
 <use threestudies1.jpg>
-Package pdftex.def Info: threestudies1.jpg  used on input line 120.
+Package pdftex.def Info: threestudies1.jpg  used on input line 121.
 (pdftex.def)             Requested size: 227.62204pt x 227.62027pt.
 <deusex1.jpg, id=25, 376.40625pt x 376.40625pt>
 File: deusex1.jpg Graphic file (type jpg)
 <use deusex1.jpg>
-Package pdftex.def Info: deusex1.jpg  used on input line 124.
+Package pdftex.def Info: deusex1.jpg  used on input line 125.
 (pdftex.def)             Requested size: 227.62204pt x 227.62596pt.
-File: background_2.jpg Graphic file (type jpg)
-<use background_2.jpg>
-Package pdftex.def Info: background_2.jpg  used on input line 141.
-(pdftex.def)             Requested size: 1195.27672pt x 845.10889pt.
+File: lorenz.jpg Graphic file (type jpg)
+<use lorenz.jpg>
+Package pdftex.def Info: lorenz.jpg  used on input line 143.
+(pdftex.def)             Requested size: 1195.0242pt x 845.02997pt.
 [3
 
  <./electroac1.jpg> <./info1.jpg> <./threestudies1.jpg> <./deusex1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 |\OT1/cmtt/m/n/24.88 Music for Films|
  []
 
 <aquadrocover.jpg, id=29, 493.0922pt x 493.0922pt>
 File: aquadrocover.jpg Graphic file (type jpg)
 <use aquadrocover.jpg>
-Package pdftex.def Info: aquadrocover.jpg  used on input line 155.
+Package pdftex.def Info: aquadrocover.jpg  used on input line 157.
 (pdftex.def)             Requested size: 227.62204pt x 227.6227pt.
 <aquadroscene.jpg, id=30, 514.92375pt x 514.92375pt>
 File: aquadroscene.jpg Graphic file (type jpg)
 <use aquadroscene.jpg>
-Package pdftex.def Info: aquadroscene.jpg  used on input line 159.
+Package pdftex.def Info: aquadroscene.jpg  used on input line 161.
 (pdftex.def)             Requested size: 227.62204pt x 227.62pt.
 <frommycover.jpg, id=31, 752.8125pt x 752.8125pt>
 File: frommycover.jpg Graphic file (type jpg)
 <use frommycover.jpg>
-Package pdftex.def Info: frommycover.jpg  used on input line 163.
+Package pdftex.def Info: frommycover.jpg  used on input line 165.
 (pdftex.def)             Requested size: 227.62204pt x 227.62596pt.
 <frommyscene.jpg, id=32, 362.85562pt x 362.85562pt>
 File: frommyscene.jpg Graphic file (type jpg)
 <use frommyscene.jpg>
-Package pdftex.def Info: frommyscene.jpg  used on input line 167.
+Package pdftex.def Info: frommyscene.jpg  used on input line 169.
 (pdftex.def)             Requested size: 227.62204pt x 227.62578pt.
-File: background_2.jpg Graphic file (type jpg)
-<use background_2.jpg>
-Package pdftex.def Info: background_2.jpg  used on input line 172.
-(pdftex.def)             Requested size: 1195.27672pt x 845.10889pt.
+File: lorenz.jpg Graphic file (type jpg)
+<use lorenz.jpg>
+Package pdftex.def Info: lorenz.jpg  used on input line 174.
+(pdftex.def)             Requested size: 1195.0242pt x 845.02997pt.
 [4
 
  <./aquadrocover.jpg> <./aquadroscene.jpg> <./frommycover.jpg> <./frommyscene.j
 pg>]
-Underfull \hbox (badness 10000) in paragraph at lines 176--176
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 |\OT1/cmtt/m/n/24.88 Live Performances|
  []
 
 <live1.jpg, id=36, 722.7pt x 721.69624pt>
 File: live1.jpg Graphic file (type jpg)
 <use live1.jpg>
-Package pdftex.def Info: live1.jpg  used on input line 194.
+Package pdftex.def Info: live1.jpg  used on input line 196.
 (pdftex.def)             Requested size: 227.62204pt x 227.30247pt.
 <live2.jpg, id=37, 642.4pt x 642.4pt>
 File: live2.jpg Graphic file (type jpg)
 <use live2.jpg>
-Package pdftex.def Info: live2.jpg  used on input line 198.
+Package pdftex.def Info: live2.jpg  used on input line 200.
 (pdftex.def)             Requested size: 227.62204pt x 227.6174pt.
 <live3.jpg, id=38, 642.4pt x 642.4pt>
 File: live3.jpg Graphic file (type jpg)
 <use live3.jpg>
-Package pdftex.def Info: live3.jpg  used on input line 202.
+Package pdftex.def Info: live3.jpg  used on input line 204.
 (pdftex.def)             Requested size: 227.62204pt x 227.6174pt.
 <live4.jpg, id=39, 2909.87125pt x 2909.87125pt>
 File: live4.jpg Graphic file (type jpg)
 <use live4.jpg>
-Package pdftex.def Info: live4.jpg  used on input line 206.
+Package pdftex.def Info: live4.jpg  used on input line 208.
 (pdftex.def)             Requested size: 227.62204pt x 227.59953pt.
-File: background_2.jpg Graphic file (type jpg)
-<use background_2.jpg>
-Package pdftex.def Info: background_2.jpg  used on input line 211.
-(pdftex.def)             Requested size: 1195.27672pt x 845.10889pt.
+File: lorenz.jpg Graphic file (type jpg)
+<use lorenz.jpg>
+Package pdftex.def Info: lorenz.jpg  used on input line 213.
+(pdftex.def)             Requested size: 1195.0242pt x 845.02997pt.
 [5
 
  <./live1.jpg> <./live2.jpg> <./live3.jpg> <./live4.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 215--215
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
 |\OT1/cmtt/m/n/24.88 Productions|
  []
 
 <particles.jpg, id=43, 1204.5pt x 1204.5pt>
 File: particles.jpg Graphic file (type jpg)
 <use particles.jpg>
-Package pdftex.def Info: particles.jpg  used on input line 227.
+Package pdftex.def Info: particles.jpg  used on input line 230.
 (pdftex.def)             Requested size: 227.62204pt x 227.60759pt.
 <otherside.jpg, id=44, 501.875pt x 501.875pt>
 File: otherside.jpg Graphic file (type jpg)
 <use otherside.jpg>
-Package pdftex.def Info: otherside.jpg  used on input line 231.
+Package pdftex.def Info: otherside.jpg  used on input line 234.
 (pdftex.def)             Requested size: 227.62204pt x 227.62596pt.
 <construction.jpg, id=45, 702.625pt x 702.625pt>
 File: construction.jpg Graphic file (type jpg)
 <use construction.jpg>
-Package pdftex.def Info: construction.jpg  used on input line 235.
+Package pdftex.def Info: construction.jpg  used on input line 238.
 (pdftex.def)             Requested size: 227.62204pt x 227.62137pt.
 <covidnsequenze.jpg, id=46, 1204.5pt x 1204.5pt>
 File: covidnsequenze.jpg Graphic file (type jpg)
 <use covidnsequenze.jpg>
-Package pdftex.def Info: covidnsequenze.jpg  used on input line 239.
+Package pdftex.def Info: covidnsequenze.jpg  used on input line 242.
 (pdftex.def)             Requested size: 227.62204pt x 227.60759pt.
-File: background_2.jpg Graphic file (type jpg)
-<use background_2.jpg>
-Package pdftex.def Info: background_2.jpg  used on input line 244.
-(pdftex.def)             Requested size: 1195.27672pt x 845.10889pt.
+File: lorenz.jpg Graphic file (type jpg)
+<use lorenz.jpg>
+Package pdftex.def Info: lorenz.jpg  used on input line 247.
+(pdftex.def)             Requested size: 1195.0242pt x 845.02997pt.
 [6
 
  <./particles.jpg> <./otherside.jpg> <./construction.jpg> <./covidnsequenze.jpg
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
 |\OT1/cmtt/m/n/24.88 Skills|
  []
 
 <skills1.jpg, id=50, 417.05812pt x 417.05812pt>
 File: skills1.jpg Graphic file (type jpg)
 <use skills1.jpg>
-Package pdftex.def Info: skills1.jpg  used on input line 278.
+Package pdftex.def Info: skills1.jpg  used on input line 283.
 (pdftex.def)             Requested size: 227.62204pt x 227.62627pt.
 <skills2.jpg, id=51, 453.19313pt x 453.19313pt>
 File: skills2.jpg Graphic file (type jpg)
 <use skills2.jpg>
-Package pdftex.def Info: skills2.jpg  used on input line 282.
+Package pdftex.def Info: skills2.jpg  used on input line 287.
 (pdftex.def)             Requested size: 227.62204pt x 227.61945pt.
 <osc1.jpg, id=52, 476.78125pt x 476.78125pt>
 File: osc1.jpg Graphic file (type jpg)
 <use osc1.jpg>
-Package pdftex.def Info: osc1.jpg  used on input line 286.
+Package pdftex.def Info: osc1.jpg  used on input line 291.
 (pdftex.def)             Requested size: 227.62204pt x 227.6229pt.
 <osc2.jpg, id=53, 471.7625pt x 471.7625pt>
 File: osc2.jpg Graphic file (type jpg)
 <use osc2.jpg>
-Package pdftex.def Info: osc2.jpg  used on input line 290.
+Package pdftex.def Info: osc2.jpg  used on input line 295.
 (pdftex.def)             Requested size: 227.62204pt x 227.62398pt.
-File: background_2.jpg Graphic file (type jpg)
-<use background_2.jpg>
-Package pdftex.def Info: background_2.jpg  used on input line 295.
-(pdftex.def)             Requested size: 1195.27672pt x 845.10889pt.
+File: lorenz.jpg Graphic file (type jpg)
+<use lorenz.jpg>
+Package pdftex.def Info: lorenz.jpg  used on input line 300.
+(pdftex.def)             Requested size: 1195.0242pt x 845.02997pt.
 [7
 
  <./skills1.jpg> <./skills2.jpg> <./osc1.jpg> <./osc2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
 |\OT1/cmtt/m/n/24.88 Researches and other links|
  []
 
-File: background_2.jpg Graphic file (type jpg)
-<use background_2.jpg>
-Package pdftex.def Info: background_2.jpg  used on input line 317.
-(pdftex.def)             Requested size: 1195.27672pt x 845.10889pt.
+File: lorenz.jpg Graphic file (type jpg)
+<use lorenz.jpg>
+Package pdftex.def Info: lorenz.jpg  used on input line 322.
+(pdftex.def)             Requested size: 1195.0242pt x 845.02997pt.
 [8
 
 ] (0_portfolio.aux) ) 
 Here is how much of TeX's memory you used:
- 12924 strings out of 479832
- 264782 string characters out of 2871057
- 510153 words of memory out of 3000000
- 29643 multiletter control sequences out of 15000+200000
- 539543 words of font info for 45 fonts, out of 3000000 for 9000
+ 12915 strings out of 479832
+ 264522 string characters out of 2871057
+ 510129 words of memory out of 3000000
+ 29634 multiletter control sequences out of 15000+200000
+ 538461 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,109p,454b,861s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 99i,12n,109p,454b,851s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/stigm/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmr12.pfb><C:/Users/stigm/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on 0_portfolio.pdf (8 pages, 8344599 bytes).
+Output written on 0_portfolio.pdf (8 pages, 8920866 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
