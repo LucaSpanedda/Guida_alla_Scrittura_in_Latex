@@ -1,0 +1,12 @@
+% For run on Bash: $ sudo pdflatex txtypewriter.tex
+
+\documentclass{article}
+\usepackage{manuscript}
+\begin{document}
+% take user input
+\typein[\name]{name of the .txt file (without extension)}
+\begingroup
+\obeylines
+\input{\name.txt}%
+\endgroup%
+\end{document}
